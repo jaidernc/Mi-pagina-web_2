@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Regiastrate, seccion de registro, formulario, formulario de datos, una formad de registrarte y tener acceso a una cuneta en nuestra pagina web, lo que te permitira comprar nuetros productos">
+    <meta name="keywords" content="REGISTRO, REGISTRATE,CORREO,DATOS">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./comprar.html">Comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./registrate.html">Registrate</a>
+                </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section class="formulario">
+
+        <div class="row">
+            <div class="col">
+                <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="First name">
+            </div>
+            <div class="col">
+                <label for="apellido">Apellido</label>
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+        </form>
+        <label for="sexo">Sexo</label>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Seleccione</option>
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+          </select>
+          <div>
+            <label for="pais">Pais</label>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Seleccione</option>
+                    <option value="1">Colombia</option>
+                    <option value="2">Venezuela</option>
+                    <option value="1">Ecuador</option>
+                    <option value="2">Argentina</option>
+                </select>
+            </div>
+            <div>
+                <label for="fecha de nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fecha de nacimiento">
+            </div>
+            <div class="botones">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+            <input class="btn btn-primary" type="reset" value="Borrar">
+            </div>
+    </section>
+    <footer>
+      <section>
+        <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">instagram</a></li>
+            <li><a href="">twiitter</a></li>
+            <li><a href="">pinteres</a></li>
+        </ul>
+    </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
