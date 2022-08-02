@@ -235,6 +235,7 @@ p{
 }
 
 .botones input{
+    display: inline-block;
     margin-top: 30px;
     background-color: #333333;
      &:hover{
@@ -276,8 +277,7 @@ h2{
 
 .tarjeta_btn{
     padding-left: 50px;
-    height: 440px;
-    align-content: flex-start;
+    margin-bottom: 50px;
     .btn-primary{
         margin-top: 50px;
 
